@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.saber.scrolltest.MainActivity">
+    >
 
     <com.example.saber.scrolltest.CustomImageView
         android:id="@+id/iv"
@@ -12,4 +12,11 @@
         android:layout_height="wrap_content"
         android:src="@mipmap/iv_except_time"
         />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弹性滑动(延时)"
+        android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>
